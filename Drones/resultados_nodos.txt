@@ -1,0 +1,72 @@
+COMPARACION DE NODOS EXPLORADOS | depth=3
+============================================================
+
+LAYOUT: tiny_hunt
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 8 | Promedio/turno: 976 | Max/turno: 1068 | Total: 7812
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 8 | Promedio/turno: 181 | Max/turno: 268 | Total: 1447
+
+LAYOUT: small_hunt
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 11 | Promedio/turno: 3428 | Max/turno: 5354 | Total: 37711
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 11 | Promedio/turno: 1457 | Max/turno: 3486 | Total: 16022
+
+LAYOUT: contested_territory
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 10 | Promedio/turno: 155178 | Max/turno: 248913 | Total: 1551778
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 10 | Promedio/turno: 92572 | Max/turno: 162126 | Total: 925715
+
+LAYOUT: drone_escape
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 11 | Promedio/turno: 4054 | Max/turno: 6565 | Total: 44590
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 250 | Promedio/turno: 3146 | Max/turno: 3547 | Total: 786404
+
+LAYOUT: jungle_chase
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 5 | Promedio/turno: 129554 | Max/turno: 213065 | Total: 647772
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 5 | Promedio/turno: 47950 | Max/turno: 93993 | Total: 239751
+
+LAYOUT: tunnel_escape
+----------------------------------------
+  MinimaxAgent | depth=3
+    TIMEOUT
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 167 | Promedio/turno: 9061 | Max/turno: 18694 | Total: 1513129
+
+LAYOUT: bottleneck
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 250 | Promedio/turno: 3056 | Max/turno: 8686 | Total: 764100
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 250 | Promedio/turno: 2049 | Max/turno: 6557 | Total: 512298
+
+LAYOUT: gauntlet
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 19 | Promedio/turno: 78310 | Max/turno: 140390 | Total: 1487888
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 19 | Promedio/turno: 12277 | Max/turno: 28300 | Total: 233259
+
+LAYOUT: hunter_cage
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 167 | Promedio/turno: 7964 | Max/turno: 17300 | Total: 1329989
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 167 | Promedio/turno: 7554 | Max/turno: 10910 | Total: 1261519
+
+LAYOUT: open_field
+----------------------------------------
+  MinimaxAgent | depth=3
+    Turnos jugados: 250 | Promedio/turno: 1860 | Max/turno: 5238 | Total: 465109
+  AlphaBetaAgent | depth=3
+    Turnos jugados: 250 | Promedio/turno: 1575 | Max/turno: 2560 | Total: 393725
